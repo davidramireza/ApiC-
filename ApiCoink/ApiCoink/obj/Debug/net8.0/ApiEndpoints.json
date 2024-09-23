@@ -1,0 +1,101 @@
+[
+  {
+    "ContainingType": "ApiCoink.Controllers.RegisterPersonController",
+    "Method": "Details",
+    "RelativePath": "api/RegisterPerson/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiCoink.RegisterPerson",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCoink.Controllers.RegisterPersonController",
+    "Method": "GetAllPersons",
+    "RelativePath": "api/RegisterPerson/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ApiCoink.RegisterPerson, ApiCoink, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCoink.Controllers.RegisterPersonController",
+    "Method": "Create",
+    "RelativePath": "api/RegisterPerson/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "person",
+        "Type": "ApiCoink.RegisterPerson",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiCoink.Controllers.RegisterPersonController",
+    "Method": "Delete",
+    "RelativePath": "api/RegisterPerson/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiCoink.Controllers.RegisterPersonController",
+    "Method": "Edit",
+    "RelativePath": "api/RegisterPerson/edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "person",
+        "Type": "ApiCoink.RegisterPerson",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
